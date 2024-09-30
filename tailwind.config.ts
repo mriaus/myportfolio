@@ -14,6 +14,15 @@ const config: Config = {
       },
     },
   },
+  safelist: [
+    'bg-yellow-500',
+    'bg-blue-800',
+    'bg-gray-800',
+    'bg-green-800',
+    'bg-green-600',
+    'bg-black-800',
+    // Añade aquí cualquier otra clase que quieras asegurar
+  ],
   plugins: [],
 };
 export default config;

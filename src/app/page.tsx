@@ -1,13 +1,13 @@
 import Image from "next/image";
+import SectionOne from "../pages/SectionOne";
 
 export default function Home() {
   return (
     <>
-      <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
-        <section className="h-screen w-screen flex justify-center items-center snap-start bg-black-500">
-          <h1>Section 1</h1>
+      <main className="h-screen overflow-y-scroll snap-y snap-mandatory text-slate-200">
+        <SectionOne>
 
-        </section>
+        </SectionOne>
         <section className="h-screen w-screen flex justify-center items-center snap-start bg-gray-500">
           <h1>Section 2</h1>
 
