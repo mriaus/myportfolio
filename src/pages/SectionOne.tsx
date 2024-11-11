@@ -1,4 +1,5 @@
 "use client"
+import ChevronDown from "../components/chevronDown/ChevronDown";
 import MagicText from "../components/magicText/MagicText";
 import MobileProfile from "../components/mobileProfile/MobileProfile";
 
@@ -19,6 +20,8 @@ export default function SectionOne() {
                     <MobileProfile />
                 </div>
             </div>
+            <ChevronDown />
+
         </section>
     );
 }
